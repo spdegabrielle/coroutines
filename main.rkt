@@ -5,7 +5,6 @@
 (define (coroutine-maker proc)
   (define saved-continuation '())
   (define (update-continuation! v)
-    (displayln "updating")
     (set! saved-continuation v))
   (define resumer (resume-maker update-continuation!))
   (define first-time #t)
