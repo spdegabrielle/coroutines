@@ -1,5 +1,7 @@
 # Coroutines for Racket
 
+Thanks to @soegaard @Ben Kenobi @pns11 & @4st on the Racket Discord
+
 # How to install
 
 1. [Set your PATH environment variable](https://github.com/racket/racket/wiki/Set-your-PATH-environment-variable) 
