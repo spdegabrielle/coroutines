@@ -15,11 +15,11 @@
 
 
 (define (pong-procedure resume value)
-  (displayln "Pinging 1")
+  (displayln "Ponging 1")
   (resume ping value)
-  (displayln "Pinging 2")
+  (displayln "Ponging 2")
   (resume ping value)
-  (displayln "Pinging 3")
+  (displayln "Ponging 3")
   (resume ping value))
 
 (define pong (coroutine-maker pong-procedure))
