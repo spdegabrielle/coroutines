@@ -5,7 +5,7 @@
 (define scribblings
   (list (list "coroutines.scrbl"
               (list 'multi-page)
-              (list 'library)
+              (list 'concurrency)
               "coroutines")))
 
 (define deps
